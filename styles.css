@@ -127,11 +127,12 @@ header .logo {
 
 /*------------------------ Body */
 .hero {
-    display: flex;
+   display: flex;
+    flex-direction: column;
     align-items: center;
     background-color: #EDEDED;
-    text-align: left;
-    margin-bottom: -4px;
+    text-align: center;
+    padding: 20px;
 }
 
 .hero-content {
