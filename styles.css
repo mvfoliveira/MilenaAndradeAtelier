@@ -13,11 +13,10 @@ body {
 
 header {
     background-color: #b36745;
-    padding-right: 40px;
+    padding: 10px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding-left: 19px;
 }
 
 header .logo {
